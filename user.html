@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Serif', 'Garamond', sans-serif;
+            background: url('/bjk.webp') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            background-color: #80d5fc;
+            width: 350px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .login-container h1 {
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .login-container a {
+            text-decoration: none;
+            color: #4A00E0;
+            font-size: 0.9em;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #4A00E0;
+            color: white;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-container button:hover {
+            background-color: #8E2DE2;
+        }
+
+        .signup-link {
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+
+        .signup-link a {
+            color: #4A00E0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="/Tech.html" method="GET">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <div><a href="#">Forgot Password?</a></div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="signup-link">
+            Not a Member? <a href="/signup.html">CREATE ACCOUNT</a>
+        </div>
+    </div>
+</body>
+</html>

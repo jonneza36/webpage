@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In/Create Account</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: serif, garamond;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('/world log.PNG') no-repeat center center;
+            background-size: 100% auto; /* Adjust the image size */
+        }
+
+        .container {
+            text-align: center;
+            padding: 70px;
+            border: 2px solid #131212;
+            width: 100%;
+            max-width: 400px;
+            background: #0202021a;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            margin-bottom: 20px;
+        }
+
+        button {
+            display: block;
+            width: 80%;
+            padding: 10px;
+            margin: 10px auto;
+            font-size: 16px;
+            font-weight: bold;
+            color: hwb(0 0% 100%);
+            background: hsl(175, 63%, 62%);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: hsl(211, 100%, 82%);
+        }
+
+        button a {
+            text-decoration: none;
+            color: white; /* Change this to any color you want */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Text -->
+        <h1>Welcome to Web Developer!</h1>
+
+        <!-- Sign In and Create Account Buttons -->
+        <button><a href="/user.html">Sign In</a></button>
+        <button><a href="/signup.html">Create Account</a></button>
+    </div>
+</body>
+</html>

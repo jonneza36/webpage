@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background-image: url('background.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #000;
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 2px solid #00aaff;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #e6f7ff, #cce7ff);
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.team-photo {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.right h2 {
+    font-size: 2em;
+    color: #004080;
+}
+
+.right p {
+    font-size: 1.2em;
+    color: #0066cc;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #004080;
+}
